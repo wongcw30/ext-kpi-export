@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<form i18nBaseUri="kpiExport:">
+	<tab id="default">
+		<fieldset id="default">
+			<field name="subscription_status" control="select" values="all,pending,active,renewable,lapsed,expired,cancelled,paused,memberofsubs,memberofsubspending" labels="All,Pending,Active,Active (renewable),Lapsed,Expired,Cancelled,Paused,Member of subscription,Member of subscription (pending)" required="true" />
+			<field name="target_object"       control="select" values="crm_contact,crm_organisation" labels="Contact,Organisation" required="true" />
+		</fieldset>
+	</tab>
+</form>
